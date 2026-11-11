@@ -1,0 +1,53 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/about</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/categories</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/contact</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/privacy</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/terms</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/article/1</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/article/2</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/article/3</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/article/4</loc>
+  </url>
+
+  <url>
+    <loc>https://YOUR-LIVE-WEBSITE-URL/article/5</loc>
+  </url>
+
+</urlset>
