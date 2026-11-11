@@ -1,7 +1,8 @@
 
 import { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import articles from "../data/articles";
+import BlogCard from "../components/BlogCard";
 
 function Blog() {
   const [searchParams] = useSearchParams();
@@ -36,7 +37,9 @@ function Blog() {
       <div className="blog-heading">
         <p>CYBERSHIELD ARTICLES</p>
         <h1>Explore Our <span>Blog</span></h1>
-        <p>Explore cybersecurity knowledge and protect your digital world.</p>
+        <p>
+          Explore cybersecurity knowledge and protect your digital world.
+        </p>
       </div>
 
       <div className="blog-filters">
@@ -61,15 +64,7 @@ function Blog() {
 
       <div className="blog-grid">
         {filteredArticles.map((article) => (
-          <div className="blog-card" key={article.id}>
-            <span className="blog-category">{article.category}</span>
-            <h2>{article.title}</h2>
-            <p>{article.description}</p>
-
-            <Link to={`/article/${article.id}`} className="read-article">
-              Read Article →
-            </Link>
-          </div>
+          <BlogCard key={article.id} article={article} />
         ))}
       </div>
 
