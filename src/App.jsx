@@ -1,5 +1,4 @@
 
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -16,7 +15,7 @@ import Terms from "./pages/Terms";
 
 function App() {
   return (
-    <BrowserRouter basename="/CyberSheild">
+    <BrowserRouter>
       <Navbar />
 
       <Routes>

@@ -39,6 +39,14 @@ function Article() {
           {article.description}
         </p>
 
+        {article.image && (
+          <img
+            src={article.image}
+            alt={article.imageAlt || article.title}
+            className="article-image"
+          />
+        )}
+
         <div className="article-body">
           {article.content.map((section, index) => (
             <div key={index}>
